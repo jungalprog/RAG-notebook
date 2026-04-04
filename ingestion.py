@@ -68,5 +68,5 @@ def run_ingestion(file_path: str):
 
 # splitted_docs = text_splitter.split_documents(all_docs)
 if __name__ == '__main__':
-    FILE_PATH = "src/Meal Plan.pdf"
+    FILE_PATH = "src/path.pdf"
     run_ingestion(FILE_PATH)
